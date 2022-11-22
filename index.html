@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorFlipper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="white">
+    <div class="container">
+        <h1 class="instruct">Tap to change BG color</h1>
+        <table>
+            <tr>
+                <td>
+                    <div id="r1c1" onclick="change('Blue')" name="color" type="button">1</div>
+                </td>
+                <td>
+                    <div id="r1c2" onclick="change('Red')" name="color" type="button">2</div>
+                </td>
+                <td>
+                    <div id="r1c3" onclick="change('Gray')" name="color" type="button">3</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="r2c1" onclick="change('Yellow')" name="color" type="button">4</div>
+                </td>
+                <td>
+                    <div id="r2c2" onclick="change('Cornsilk')" name="color" type="button">5</div>
+                </td>
+                <td>
+                    <div id="r2c3" onclick="change('Aqua')" name="color" type="button">6</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="r3c1" onclick="change('Sienna')" name="color" type="button">7</div>
+                </td>
+                <td>
+                    <div id="r3c2" onclick="change('Coral')" name="color" type="button">8</div>
+                </td>
+                <td>
+                    <div id="r3c3" onclick="change('Magenta')" name="color" type="button">9</div>
+                </td>
+            </tr>
+        </table>
+        <h1 class="bgtxt" id="bgtxt">White</h1>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>
